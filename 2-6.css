@@ -57,13 +57,27 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
   color: #fff;
 }
 
-
-.blog {
-  
+main{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 suto;
+  padding: 70px 0;
 }
 
-.sidebar {
-  
+.blog{
+  width: 540px;
+  margin-right: 30px;
+}
+
+.blog-heading{
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.sidebar{
+  width: 230px;
 }
 
 footer {
